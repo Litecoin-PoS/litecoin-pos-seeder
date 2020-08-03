@@ -401,8 +401,8 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"dnsseed.litecoinpos.org", ""};
-static const string testnet_seeds[] = {"testnet-dnsseed.litecoinpos.org", ""};
+static const string mainnet_seeds[] = {"seed1.litecoinpos.org", "seed2.litecoinpos.org","seed3.litecoinpos.org","seed4.litecoinpos.org","seed5.tokl.io","seed6.tokl.io"};
+static const string testnet_seeds[] = {"testnet-seed1.litecoinpos.org", "testnet-seed2.litecoinpos.org","testnet-seed3.litecoinpos.org","testnet-seed4.litecoinpos.org","testnet-seed5.tokl.io","testnet-seed6.tokl.io"};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
